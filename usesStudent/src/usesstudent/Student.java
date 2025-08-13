@@ -1,7 +1,8 @@
 package usesStudent;
 
 public class Student {
-    // 3 attributes "private" with the datatype.
+    // 3 attributes "private" with the datatype. (the data)
+    // private - because they are private to the class.
     private long studNr;
     private String name;
     private int age;

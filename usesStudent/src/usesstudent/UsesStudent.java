@@ -35,5 +35,5 @@ public class UsesStudent {
         System.out.println("stud1 student age: " + stud1.getAge());
         
     } // end of main
-    
+     
 } // end of class
