@@ -1,9 +1,12 @@
-package usesstudent;
+package usesstudent02;
+
 
 import java.util.Scanner;
 
-public class UsesStudent {
 
+public class UsesStudent02 {
+
+    
     public static void main(String[] args) {
         // must instantiate a Student object (called stud1)
 
@@ -14,7 +17,7 @@ public class UsesStudent {
         String cStudName;
         double cStudBalance;
         double studPayment;
-
+        
         System.out.print("Enter student number: ");
         cStudNr = kbd.nextLong();
 
@@ -24,16 +27,10 @@ public class UsesStudent {
         System.out.print("Enter outstanding balance: ");
         cStudBalance = kbd.nextDouble();
 
-        Student stud1 = new Student(cStudNr, cStudName, cStudBalance);
-
-        // to access the show() method.
-        stud1.show();
-
-        System.out.print("Please enter payment amount: ");
-        studPayment = kbd.nextDouble();
-
-        stud1.makePayment(studPayment);
-
+        Student02 stud1 = new Student02(cStudNr, cStudName, cStudBalance); 
+        
+        
+        
     } // end of main
-
+    
 } // end of class

@@ -1,12 +1,13 @@
-package usesstudent;
 
-public class Student {
+package usesstudent02;
 
+
+public class Student02 {
     // attributes
     private long studNr;
     private String studName;
     private double studBalance;
-
+    
     // setter and getters methods
     public void setStudNr(long studNr) {
         this.studNr = studNr;
@@ -33,11 +34,11 @@ public class Student {
     }
 
     // constructor
-    public Student() {
+    public Student02() {
 
     }
 
-    public Student(long studNr, String studName, double studBalance) {
+    public Student02(long studNr, String studName, double studBalance) {
         this.studNr = studNr;
         this.studName = studName;
         this.studBalance = studBalance;
@@ -54,7 +55,6 @@ public class Student {
 
     public void makePayment(double studPayment) {
         double total = studBalance - studPayment;
-        System.out.println("New ampount: " + total);
+        System.out.println("New amount: " + total);
     }
-
 } // end of class
