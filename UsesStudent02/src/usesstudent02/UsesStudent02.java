@@ -29,7 +29,13 @@ public class UsesStudent02 {
 
         Student02 stud1 = new Student02(cStudNr, cStudName, cStudBalance); 
         
-        
+        // to access the show() method.
+        stud1.show();
+
+        System.out.print("Please enter payment amount: ");
+        studPayment = kbd.nextDouble();
+
+        stud1.makePayment(studPayment);
         
     } // end of main
     

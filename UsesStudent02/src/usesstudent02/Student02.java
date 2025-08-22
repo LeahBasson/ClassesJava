@@ -1,13 +1,12 @@
-
 package usesstudent02;
 
-
 public class Student02 {
+
     // attributes
     private long studNr;
     private String studName;
     private double studBalance;
-    
+
     // setter and getters methods
     public void setStudNr(long studNr) {
         this.studNr = studNr;
