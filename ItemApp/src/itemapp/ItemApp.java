@@ -10,10 +10,18 @@ public class ItemApp {
         items[2] = new Item("103", "Sugar", 40.00, 18);
         items[3] = new Item("104", "Eggs", 55.00, 21);
         items[4] = new Item("105", "Salt", 10.00, 40);
+
+        items[0].decrQtyOnHand(5);items[0].decrQtyOnHand(5);
+
+        System.out.println("Inventory report");
+        System.out.println("--------------------");
         
-        for(int i = 0; i < items.length; i++){
+        for (int i = 0; i < items.length; i++) {
             System.out.println(items[i]); // calls toString() on each item.
         }
+        
+        System.out.println("-----------------------");
+        System.out.println("End of inventory report");
         
     } // end of main
 
