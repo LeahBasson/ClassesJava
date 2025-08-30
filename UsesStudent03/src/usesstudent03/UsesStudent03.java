@@ -16,9 +16,10 @@ public class UsesStudent03 {
 
         System.out.print("Enter 2nd student's number: ");
         cStudNr = kbd.nextLong();
+        kbd.nextLine();
 
         System.out.print("Enter 2nd student's name: ");
-        cStudName = kbd.next();
+        cStudName = kbd.nextLine();
 
         System.out.print("Enter 2nd student's outstanding balance: ");
         cStudBalance = kbd.nextDouble();
@@ -31,8 +32,16 @@ public class UsesStudent03 {
         stud1.show();
 
         System.out.println("**Student 2 using toString()");
-        System.out.println(stud2.toString());
+        System.out.println(stud2);
+        
+        System.out.print("Please enter payment amount for Student 1: R");
+        double studPayment = kbd.nextDouble();
+        stud1.makePayment(studPayment);
+        
+        System.out.println("----------------------------------------------");
+        
+        stud1.show();
+        
+    }// end of main
 
-    } // end of main
-
-} // end of class
+}// end of class

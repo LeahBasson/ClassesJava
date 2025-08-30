@@ -53,8 +53,7 @@ public class Student03 {
     }
 
     public void makePayment(double studPayment) {
-        double total = studBalance - studPayment;
-        System.out.println("Final amount: " + total);
+        studBalance -= studPayment;
     }
 
 //    @Override
