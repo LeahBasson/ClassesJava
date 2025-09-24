@@ -46,12 +46,12 @@ public class UsesStudent04 {
 
         Student leastBalance = students[0];
 
-        for (int i = 0; i < students.length; i++) {
+        for (int i = 1; i < numOfStudents; i++) {
             if (students[i].getStudBalance() < leastBalance.getStudBalance()) {
                 leastBalance = students[i];
             }
         }
-        
+
         leastBalance.show();
 
     }// end of main
