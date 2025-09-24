@@ -1,6 +1,5 @@
 package usesstudent04;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class UsesStudent04 {
@@ -39,10 +38,12 @@ public class UsesStudent04 {
         //numOfStudents++;
 
         System.out.println("----------------------------------");
-        System.out.println(Arrays.toString(students));
-        System.out.println("----------------------------------");
 
-        System.out.println("The student that owes the LEAST is: ");
+        for (int i = 0; i < numOfStudents; i++) {
+            System.out.println(students[i]);
+        }
+
+        System.out.println("----------------------------------");
 
         Student leastBalance = students[0];
 

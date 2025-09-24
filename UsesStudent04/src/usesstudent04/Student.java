@@ -62,7 +62,7 @@ public class Student {
     @Override
     public String toString() {
         String content;
-        content = "\nStudent#= " + this.studNr + "| Name= " + this.studName + "| Balance= R" + this.studBalance;
+        content = "Student#= " + this.studNr + "| Name= " + this.studName + "| Balance= R" + this.studBalance;
         return content;
     }
 }// end of class
